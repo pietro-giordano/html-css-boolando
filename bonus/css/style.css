@@ -1,0 +1,174 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* GENERALI */
+body {
+      font-family: 'Roboto', sans-serif;
+}
+
+.container {
+      width: 1100px;
+      margin: 0 auto;
+}
+
+.flex {
+      display: flex;
+}
+
+.relative {
+      position: relative;
+}
+
+.white {
+      color: white;
+}
+
+/* HEADER  */
+header {
+      background-color: #ff6900;
+      padding: 15px;
+      position: fixed;
+      z-index: 10;
+      width: 100%;
+}
+
+header > div {
+      align-items: center;
+      justify-content: space-between;
+}
+
+header ul {
+      list-style: none;
+}
+
+header ul li a {
+      padding-right: 8px;
+      color: white;
+      text-decoration: none;
+}
+
+.logo img {
+      max-height: 30px;
+}
+
+.icons {
+      padding-left: 8px;
+}
+
+/* MAIN  */
+main {
+      padding-top: 60px;
+}
+
+.shop {
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.card {
+      width: 32%;
+      padding-top: 50px;
+      flex-direction: column;
+}
+
+.card img {
+      width: 100%;
+}
+
+.hidden-img {
+      display: none;
+      width: 100%;
+}
+
+.card:hover img {
+      display: none;
+}
+
+.card:hover .hidden-img {
+      display: block;
+}
+
+.heart {
+      color: black;
+      padding: 0 10px;
+      font-size: 30px;
+      background-color: white;
+      position: absolute;
+      right: 0;
+      top: 60px;
+}
+
+.heart:hover {
+      color: red;
+}
+
+.heart::after {
+      content: "\2665";
+}
+
+.mini-box {
+      position: absolute;
+      bottom: 20%;
+}
+
+.deal {
+      background-color: red;
+      padding: 4px 8px;
+      margin-right: 1px;
+}
+
+.sustainability {
+      background-color: green;
+      padding: 4px 8px;
+}
+
+h2 {
+      font-size: 20px;
+}
+
+.price1 {
+      color: red;
+}
+
+.price2 {
+      text-decoration: line-through;
+}
+
+/* FOOTER  */
+footer {
+      background-color: black;
+      padding: 20px;
+      margin-top: 60px;
+}
+
+footer div {
+      justify-content: space-between;
+}
+
+.info-footer div a {
+      text-decoration: none;
+      color: white;
+      padding-right: 8px;
+      font-size: 12px;
+}
+
+.footer-icons div {
+      font-size: 12px;
+      padding-bottom: 4px;
+}
+
+.footer-icons i {
+      padding-right: 5px;
+}
+
+/* debug */
+.border {
+      border: 2px dashed black;
+}
+
+.box { 
+      background-color: aquamarine;
+}
