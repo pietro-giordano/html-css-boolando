@@ -26,6 +26,8 @@ body {
 header {
       background-color: #ff6900;
       padding: 15px;
+      position: fixed;
+      width: 100%;
 }
 
 header > div {
