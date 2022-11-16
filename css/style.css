@@ -18,6 +18,10 @@ body {
       display: flex;
 }
 
+.relative {
+      position: relative;
+}
+
 .white {
       color: white;
 }
@@ -27,6 +31,7 @@ header {
       background-color: #ff6900;
       padding: 15px;
       position: fixed;
+      z-index: 10;
       width: 100%;
 }
 
@@ -86,10 +91,39 @@ main {
       display: block;
 }
 
+.mini-box {
+      position: absolute;
+      bottom: 20%;
+}
+
+.deal {
+      background-color: red;
+      padding: 4px 8px;
+      margin-right: 1px;
+}
+
+.sustainability {
+      background-color: green;
+      padding: 4px 8px;
+}
+
+h2 {
+      font-size: 20px;
+}
+
+.price1 {
+      color: red;
+}
+
+.price2 {
+      text-decoration: line-through;
+}
+
 /* FOOTER  */
 footer {
       background-color: black;
       padding: 20px;
+      margin-top: 60px;
 }
 
 footer div {
