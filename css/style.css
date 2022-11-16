@@ -91,6 +91,20 @@ main {
       display: block;
 }
 
+.heart {
+      color: black;
+      padding: 0 10px;
+      font-size: 30px;
+      background-color: white;
+      position: absolute;
+      right: 0;
+      top: 60px;
+}
+
+.heart::after {
+      content: "\2665";
+}
+
 .mini-box {
       position: absolute;
       bottom: 20%;
