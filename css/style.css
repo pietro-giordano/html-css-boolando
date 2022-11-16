@@ -45,11 +45,9 @@ header ul li a {
 
 .logo img {
       max-height: 30px;
-      justify-content: center;
 }
 
 .icons {
-      justify-content: flex-end;
       padding-left: 8px;
 }
 
@@ -71,8 +69,30 @@ header ul li a {
 
 
 /* FOOTER  */
+footer {
+      background-color: black;
+      padding: 20px;
+}
 
+footer div {
+      justify-content: space-between;
+}
 
+.info-footer div a {
+      text-decoration: none;
+      color: white;
+      padding-right: 8px;
+      font-size: 12px;
+}
+
+.footer-icons div {
+      font-size: 12px;
+      padding-bottom: 4px;
+}
+
+.footer-icons i {
+      padding-right: 5px;
+}
 
 /* debug */
 .border {
